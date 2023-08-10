@@ -19,7 +19,7 @@ export default function Home() {
       justifyContent: "center",
       alignItems: "center",
     }}>
-        <img src={tool} alt="Logo" width="150px" height="150px" style={{ marginBottom: "70px" }} />
+        <img src={tool} alt="Logo" width="150px" height="150px" style={{ marginBottom: "40px" }} />
         <div style={{
             backgroundColor: "#252525",
             padding: "2rem",

@@ -37,7 +37,11 @@ export default function MessageView() {
             // Call the API to get similar text chunks
             try {
                 const docid = "0-28119a49-c0a3-4ae0-98c2-873d7a7ee38d";
+                console.log(inputValue.trim())
                 const similarChunks = await findSimilarTextChunks(session.access_token, inputValue.trim(), docid);
+                if (similarChunks.error) {
+                    console.log(similarChunks.error)
+                }
                 const similarChunksString = similarChunks.data.map(chunk => chunk.text_chunk).join('\n');
                 console.log("Similar chunks found:", similarChunksString);
     
