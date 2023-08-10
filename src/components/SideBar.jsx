@@ -46,7 +46,7 @@ export default function Sidebar({ signOut, setActiveView }) {
         <Box 
             width={{ base: "full", md: '250px' }} 
             height={{ base: 'auto', md: '100vh' }} 
-            bg="#00b34d" 
+            bg="#109249" 
             color="white" 
             p={isMobile ? 4 : 8}
             m="0"

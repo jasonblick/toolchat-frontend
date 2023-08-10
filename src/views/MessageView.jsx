@@ -88,7 +88,7 @@ export default function MessageView() {
                 {messages.map((msg, index) => (
                     <HStack key={index} justifyContent={msg.type === 'user' ? 'flex-end' : 'flex-start'} width="100%">
                         <Box 
-                            bg={msg.type === 'system' ? "#00b34d" : "#4b4b4b"}
+                            bg={msg.type === 'system' ? "#109249" : "#4b4b4b"}
                             borderRadius="20px"
                             px="4"
                             py="3"
@@ -142,7 +142,7 @@ export default function MessageView() {
                     />
                     <Button 
                         ml="2"
-                        bg="#00b34d"
+                        bg="#109249"
                         color="white"
                         borderRadius="20px"
                         _hover={{ bg: "#008f3e" }}

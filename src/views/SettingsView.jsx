@@ -24,7 +24,7 @@ import {
                 <Button 
                     marginTop="40px" 
                     bg="#4b4b4b"
-                    _hover={{ bg: "#00b34d" }}
+                    _hover={{ bg: "#109249" }}
                     borderRadius="20px"
                     color="white"
                     width={isMobile ? "50%" : "120px"}
