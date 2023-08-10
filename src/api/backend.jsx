@@ -18,11 +18,11 @@ export const findSimilarTextChunks = async (token, textQuery, documentId) => {
   }
 };
 
-export const invokeDocQA = async (token, model, message, apiKey, chunks) => {
+export const invokeDocQA = async (token, model, message, chunks) => {
   try {
     const response = await axios.post(
       `${baseURL}/invokeDocQA`,
-      { model, message, api_key: apiKey, chunks: chunks },
+      { model, message, chunks: chunks },
       { headers: { Authorization: `Bearer ${token}` } }
     );
     return response.data;
