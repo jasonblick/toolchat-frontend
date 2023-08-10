@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-const baseURL = "http://54.183.125.140:80";
+const baseURL = "https://gizachat.com";
 
 export const findSimilarTextChunks = async (token, textQuery, documentId) => {
   try {
