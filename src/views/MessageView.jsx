@@ -50,7 +50,7 @@ export default function MessageView() {
                     session.access_token,
                     "gpt-3.5-turbo",
                     inputValue.trim(),
-                    "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",
+                    "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",
                     similarChunksString
                 );
     
